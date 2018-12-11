@@ -1,0 +1,6 @@
+./doc/manual.html
+./misc/bash-completion
+./misc/ninja-mode.el
+./misc/ninja.vim
+./misc/zsh-completion
+./ninja

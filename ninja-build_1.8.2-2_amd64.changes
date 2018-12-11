@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Mon, 01 Oct 2018 10:39:31 +0200
+Source: ninja-build
+Binary: ninja-build
+Built-For-Profiles: nobiarch nocheck
+Architecture: amd64
+Version: 1.8.2-2
+Distribution: UNRELEASED
+Urgency: medium
+Maintainer: Felix Geyer <fgeyer@debian.org>
+Changed-By: Ondřej Nový <onovy@debian.org>
+Description:
+ ninja-build - small build system closest in spirit to Make
+Changes:
+ ninja-build (1.8.2-2) UNRELEASED; urgency=medium
+ .
+   [ Ondřej Nový ]
+   * d/copyright: Use https protocol in Format field
+   * d/control: Set Vcs-* to salsa.debian.org
+ .
+   [ Felix Geyer ]
+   * Drop Conflicts: ninja as that package has been removed.
+Checksums-Sha1:
+ ecdd07d36d7d37fdc2ac0b44d9151d2abcd21988 874408 ninja-build-dbgsym_1.8.2-2_amd64.deb
+ 4a3bab7a04bb06f7f806d8c96631eb64b77f964d 6038 ninja-build_1.8.2-2_amd64.buildinfo
+ 0f02227ec08145720a709fec3e7a87448e53814a 122360 ninja-build_1.8.2-2_amd64.deb
+Checksums-Sha256:
+ a1ccbfe4e4d69db9b292a6accdf3232fea15f5971f6aa08be144b787b9201e8e 874408 ninja-build-dbgsym_1.8.2-2_amd64.deb
+ a7033ccc15e6f4563564fb2294ce90d0eb31fba3664d3d872a58d6e6300253bf 6038 ninja-build_1.8.2-2_amd64.buildinfo
+ 1cee52094f959e58e59871d2b990622f589685843a3e9e709342e47b6cfe8833 122360 ninja-build_1.8.2-2_amd64.deb
+Files:
+ 86ec9b1dbb7a017bf267a1ccf1d8cdfe 874408 debug optional ninja-build-dbgsym_1.8.2-2_amd64.deb
+ 7ff958889d4ba82ca7bc2645a11a9bc1 6038 devel optional ninja-build_1.8.2-2_amd64.buildinfo
+ fc373141934ddba422752b666bc8df0c 122360 devel optional ninja-build_1.8.2-2_amd64.deb

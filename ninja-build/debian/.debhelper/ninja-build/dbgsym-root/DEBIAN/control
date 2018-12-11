@@ -1,0 +1,12 @@
+Package: ninja-build-dbgsym
+Source: ninja-build
+Version: 1.8.2-2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Felix Geyer <fgeyer@debian.org>
+Installed-Size: 902
+Depends: ninja-build (= 1.8.2-2)
+Section: debug
+Priority: optional
+Description: debug symbols for ninja-build
+Build-Ids: a55b68cfbc4b5f944f6392b5100c41640955d40c
